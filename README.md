@@ -1,2 +1,2 @@
 # Nvim-Config
-Noob Nvim Configuration
+Nvim Configuration
