@@ -54,6 +54,7 @@ return packer.startup(function(use)
 	use("rafamadriz/friendly-snippets")
 	use("marko-cerovac/material.nvim")
 	use("nvim-treesitter/nvim-treesitter", { run = ":TSUpdate" })
+	use("nvim-treesitter/playground")
 
 	--LSP--
 
