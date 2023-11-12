@@ -11,6 +11,10 @@ vim.g.loaded_netrwPlugin = 1
 nvimtree.setup({
 
 	sync_root_with_cwd = true,
+	update_focused_file = {
+		enable = true,
+		update_cwd = true,
+	},
 	renderer = {
 		icons = {
 			glyphs = {
