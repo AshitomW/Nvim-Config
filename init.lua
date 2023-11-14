@@ -17,3 +17,4 @@ require("default.plugins.lsp.null-ls")
 
 require("default.plugins.autopairs")
 require("default.plugins.gitsigns")
+require("default.plugins.tabline")
