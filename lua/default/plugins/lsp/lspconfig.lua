@@ -54,6 +54,10 @@ local on_attach = function(client, bufnr)
 	keymap.set("i", "<C-h>", function()
 		vim.lsp.buf.signature_help()
 	end, opts)
+
+	if client.name == "clangd" then
+		keymap.set("n", "<leader>sf", ":ClangdSwitchSourceHeader<CR>")
+	end
 end
 
 local capabilities = cmp_nvim_lsp.default_capabilities()
