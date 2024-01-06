@@ -1,14 +1,11 @@
 vim.g.mapleader = " "
 
 local keymap = vim.keymap
-
 -- general keymaps
 
 keymap.set("i", "jk", "<ESC>")
 keymap.set("n", "<leader>nh", ":nohl<CR>")
-
 keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
-
 -- Number Manipulation
 
 keymap.set("n", "<leader>+", "<C-a>")

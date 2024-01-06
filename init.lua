@@ -9,12 +9,10 @@ require("default.plugins.comments")
 require("default.plugins.telescope")
 require("default.plugins.nvim-cmp")
 require("default.plugins.treesitter")
-
 require("default.plugins.lsp.mason")
 require("default.plugins.lsp.lspconfig")
 require("default.plugins.lsp.lspsaga")
 require("default.plugins.lsp.null-ls")
-
 require("default.plugins.autopairs")
 require("default.plugins.gitsigns")
 require("default.plugins.tabline")

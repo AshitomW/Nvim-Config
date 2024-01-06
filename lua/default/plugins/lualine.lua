@@ -8,6 +8,6 @@ lualine.setup({
 
 	options = {
 		disabled_filetypes = { "packer", "NvimTree" },
-		theme = "gruvbox-material",
+		theme = "horizon",
 	},
 })

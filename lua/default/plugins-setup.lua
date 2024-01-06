@@ -24,6 +24,7 @@ if not status then
 end
 
 return packer.startup(function(use)
+	use("kaicataldo/material.vim")
 	use("wbthomason/packer.nvim")
 	use("Mofiqul/vscode.nvim")
 	use("christoomey/vim-tmux-navigator")
@@ -81,7 +82,13 @@ return packer.startup(function(use)
 	}) -- enhanced lsp uis
 	use("jose-elias-alvarez/typescript.nvim") -- additional functionality for typescript server (e.g. rename file & update imports)
 	use("onsails/lspkind.nvim")
-
+	use({
+		"akinsho/toggleterm.nvim",
+		tag = "*",
+		config = function()
+			require("toggleterm").setup()
+		end,
+	})
 	use("lewis6991/gitsigns.nvim")
 
 	-- use 'bluz71/vim-nightfly-colors'
