@@ -19,13 +19,11 @@ mason.setup()
 mason_lspconfig.setup({
 
 	ensure_installed = {
-		"tsserver",
 		"rust_analyzer",
 		"html",
 		"cssls",
 		"tailwindcss",
 		"lua_ls",
-		"pyright",
 	},
 })
 

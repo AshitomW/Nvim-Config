@@ -90,6 +90,7 @@ return packer.startup(function(use)
 		end,
 	})
 	use("lewis6991/gitsigns.nvim")
+	use("andweeb/presence.nvim")
 
 	-- use 'bluz71/vim-nightfly-colors'
 	-- use 'foo1/bar1.nvim'
