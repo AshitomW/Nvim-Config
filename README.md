@@ -16,7 +16,6 @@ Welcome to my Neovim configuration! This repository contains my personal configu
 - Fuzzy file finder with Telescope
 - Code completion with nvim-cmp
 - LSP (Language Server Protocol) support
-- Git integration with fugitive and gitsigns
 - Syntax highlighting with treesitter
 - Easy file navigation with nvim-tree
 - Quick code commenting
