@@ -29,9 +29,10 @@ To install my Neovim configuration, follow these steps:
    git clone https://github.com/yourusername/neovim-config.git ~/.config/nvim
    ```
 
-2. Install the required plugins using `vim-plug`:
+2. Install the required plugins using `packer.nvim`:
    ```sh
-   nvim +PlugInstall +qall
+   git clone --depth 1 https://github.com/wbthomason/packer.nvim\ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+
    ```
 
 3. Install external dependencies (e.g., LSP servers, linters, formatters):
