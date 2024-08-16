@@ -9,7 +9,7 @@ keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
 -- Number Manipulation
 
 keymap.set("n", "<leader>+", "<C-a>")
-keymap.set("n", "<leader>-", "<C-x>")
+keymap.set("n", "<leader>_", "<C-x>")
 
 -- Telescope
 
@@ -30,7 +30,13 @@ keymap.set("n", "<leader>sx", ":close<CR>") --close the split
 
 --Tabs
 
-keymap.set("n", "<leader>to", ":tabnew<CR>")
-keymap.set("n", "<leader>tx", ":tabclose<CR>")
-keymap.set("n", "<leader>tn", ":tabn<CR>")
-keymap.set("n", "<leader>tp", ":tabp<CR>")
+keymap.set("n", "<leader>bn", ":bnext<cr>")
+keymap.set("n", "<leader>bp", ":bprev<cr>")
+
+--Window Resize
+
+keymap.set("n", "<leader><", ":vertical resize +5<cr>")
+keymap.set("n", "<leader>>", ":vertical resize -5<cr>")
+
+keymap.set("n", "<leader>=", ":horizontal resize +5<cr>")
+keymap.set("n", "<leader>-", ":horizontal resize -5<cr>")

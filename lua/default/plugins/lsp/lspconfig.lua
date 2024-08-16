@@ -13,6 +13,24 @@ if not typescript_setup then
 	return
 end
 
+vim.diagnostic.config({
+	virtual_text = true,
+	update_in_insert = true,
+	underline = true,
+	severity_sort = true,
+	float = {
+		focusable = true,
+		border = "rounded",
+	},
+})
+vim.lsp.handlers["textDocument/hover"] = vim.lsp.with(vim.lsp.handlers.hover, {
+	border = "rounded",
+})
+
+vim.lsp.handlers["textDocument/signatureHelp"] = vim.lsp.with(vim.lsp.handlers.signature_help, {
+	border = "rounded",
+})
+
 local keymap = vim.keymap
 local on_attach = function(client, bufnr)
 	local opts = { noremap = true, silent = true, buffer = bufnr }

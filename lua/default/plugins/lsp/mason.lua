@@ -33,6 +33,5 @@ mason_null_ls.setup({
 
 		"prettier",
 		"stylua",
-		"eslint_d",
 	},
 })

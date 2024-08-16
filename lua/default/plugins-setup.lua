@@ -29,10 +29,6 @@ return packer.startup(function(use)
 	use("christoomey/vim-tmux-navigator")
 	use("tpope/vim-surround")
 	use("vim-scripts/ReplaceWithRegister")
-	use({
-		"rockyzhang24/arctic.nvim",
-		requires = { "rktjmp/lush.nvim" },
-	})
 	use("numToStr/Comment.nvim")
 	use("nvim-lua/plenary.nvim")
 	use("nvim-tree/nvim-tree.lua")

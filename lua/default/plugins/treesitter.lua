@@ -7,8 +7,7 @@ treesitter.setup({
 	highlight = {
 		enable = true,
 	},
-	indent = { enable = true },
-	autotag = { enable = true },
+	indent = { enable = false },
 	ignore_install = { "help" },
 	ensure_installed = {
 		"cpp",
