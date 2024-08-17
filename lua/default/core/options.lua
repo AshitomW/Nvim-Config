@@ -4,6 +4,7 @@ local opt = vim.opt --for conciseness
 
 opt.relativenumber = true
 opt.number = true
+opt.numberwidth = 3
 
 --tabs and indentations
 
