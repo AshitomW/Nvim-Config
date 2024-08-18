@@ -4,12 +4,12 @@ local opt = vim.opt --for conciseness
 
 opt.relativenumber = true
 opt.number = true
-opt.numberwidth = 3
+opt.numberwidth = 5
 
 --tabs and indentations
 
-opt.tabstop = 2
-opt.shiftwidth = 2
+opt.tabstop = 4
+opt.shiftwidth = 4
 opt.expandtab = true
 opt.autoindent = false
 

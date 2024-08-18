@@ -13,7 +13,9 @@ null_ls.setup({
 	sources = {
 		--  to disable file types use
 		--  "formatting.prettier.with({disabled_filetypes = {}})" (see null-ls docs)
-		formatting.prettier, -- js/ts formatter
+		formatting.prettier.with({
+			extra_args = { "--tab-width", "4" },
+		}), -- js/ts formatter
 		formatting.stylua, -- lua formatter
 	},
 	-- configure format on save
