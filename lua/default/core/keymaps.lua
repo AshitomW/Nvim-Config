@@ -46,3 +46,7 @@ keymap.set("n", "<leader>-", ":horizontal resize -5<cr>")
 keymap.set("n", "<leader>ttf", "<cmd>ToggleTerm direction=float<cr>")
 keymap.set("n", "<leader>ttv", "<cmd>ToggleTerm direction=vertical<cr>")
 keymap.set("n", "<leader>tth", "<cmd>ToggleTerm direction=horizontal<cr>")
+
+-- LSP
+
+keymap.set("n", "<leader>lspr", "<cmd>LspRestart<cr>")
